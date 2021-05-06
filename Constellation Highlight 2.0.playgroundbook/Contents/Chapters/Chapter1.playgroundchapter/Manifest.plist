@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InitialUserPages</key>
+	<array>
+		<string>My Playground.playgroundpage</string>
+		<string>01B1F892-BF9D-4E01-97A9-85EC4DBBBE9A.playgroundpage</string>
+		<string>9BC0B29D-E624-42A7-902D-C9E675CE05FA.playgroundpage</string>
+		<string>63F14C9A-F36F-454A-8390-73646F6314F9.playgroundpage</string>
+	</array>
+	<key>Name</key>
+	<string>My Playground</string>
+	<key>TemplatePageFilename</key>
+	<string>Template.playgroundpage</string>
+</dict>
+</plist>
