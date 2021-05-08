@@ -9,7 +9,7 @@ public class ArtScene: SKScene, AVAudioPlayerDelegate{
     var constelacao: Constelacao = Constelacao(col: 15, linhas: 15, radius: 1)
     var colors: [UIColor] = [#colorLiteral(red: 0.9999960065, green: 1.0, blue: 1.0, alpha: 1.0)]
     var grama: SKSpriteNode = SKSpriteNode(imageNamed: "Grama.png")
-    var menina: SKSpriteNode = SKSpriteNode(imageNamed: "menFrente2.png")
+    var menina: SKSpriteNode = SKSpriteNode(imageNamed: "oi.png")
     var lua: SKSpriteNode = SKSpriteNode(imageNamed: "Lua.png")
     var soundButtonOff: SKSpriteNode = SKSpriteNode(imageNamed: "soundOn.png")
     var count = 0
@@ -62,14 +62,15 @@ public class ArtScene: SKScene, AVAudioPlayerDelegate{
         self.addChild(lua)
         self.addChild(soundButtonOff)
         
-        let texture: [SKTexture] = [SKTexture(imageNamed: "menFrente2.png"),
-                                    SKTexture(imageNamed: "meninaFrente2.png"),
-                                    SKTexture(imageNamed: "meninaFrente3.png"),
-                                    SKTexture(imageNamed: "meninaFrente4.png"), SKTexture(imageNamed: "meninaFrente5.png"),
-                                    SKTexture(imageNamed: "meninaFrente4.png"),
-                                    SKTexture(imageNamed: "meninaFrente3.png"),
-                                    SKTexture(imageNamed: "meninaFrente2.png"),
-                                    SKTexture(imageNamed: "menFrente2.png")]
+        let texture: [SKTexture] = [SKTexture(imageNamed: "oi.png"),
+                                    SKTexture(imageNamed: "oi2.png"),
+                                    SKTexture(imageNamed: "oi3.png"),
+                                    SKTexture(imageNamed: "oi4.png"), SKTexture(imageNamed: "oi6.png"),
+                                    SKTexture(imageNamed: "oi5.png"),
+                                    SKTexture(imageNamed: "oi4.png"),
+                                    SKTexture(imageNamed: "oi3.png"),
+                                    SKTexture(imageNamed: "oi2.png"),
+                                    SKTexture(imageNamed: "oi.png")]
         for t in texture{
             t.filteringMode = .nearest
         }
